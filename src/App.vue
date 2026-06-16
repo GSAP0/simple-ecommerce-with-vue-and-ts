@@ -1,35 +1,55 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView, useRoute } from 'vue-router'
+import ErrorBoundary from '@/components/ErrorBoundary.vue'
+import NavMenu from '@/components/NavMenu.vue'
+import ToastHost from '@/components/ToastHost.vue'
+import { useTheme } from '@/lib/theme'
 
-const links = [
-  { to: '/products', label: 'Products' },
-  { to: '/categories', label: 'Categories' },
-  { to: '/cart', label: 'Cart' },
-]
+const route = useRoute()
+const { theme, toggle } = useTheme()
 </script>
 
 <template>
-  <header class="sticky top-0 z-10 border-b border-gray-200 bg-white/80 backdrop-blur">
-    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-      <RouterLink to="/" class="text-xl font-bold tracking-tight text-gray-900">
-        Infiterra
-      </RouterLink>
-
-      <nav class="flex items-center gap-1">
-        <RouterLink
-          v-for="link in links"
-          :key="link.to"
-          :to="link.to"
-          class="rounded-lg px-4 py-2 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900"
-          active-class="bg-gray-900 text-white hover:bg-gray-900 hover:text-white"
+  <header class="site-header">
+    <div class="container">
+      <div class="header-left">
+        <button
+          type="button"
+          class="theme-toggle btn-secondary"
+          :aria-label="theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
+          @click="toggle"
         >
-          {{ link.label }}
-        </RouterLink>
-      </nav>
+          {{ theme === 'dark' ? '☀' : '🌙' }}
+        </button>
+        <RouterLink to="/" class="brand">Infiterra</RouterLink>
+      </div>
+      <NavMenu />
     </div>
   </header>
 
-  <main class="mx-auto max-w-6xl px-6 py-8">
-    <RouterView />
+  <main>
+    <div class="container">
+      <ErrorBoundary>
+        <RouterView v-slot="{ Component }">
+          <Transition name="fade" mode="out-in">
+            <Suspense v-if="Component">
+              <component :is="Component" :key="route.fullPath" />
+              <template #fallback>
+                <p class="muted">Loading…</p>
+              </template>
+            </Suspense>
+          </Transition>
+        </RouterView>
+      </ErrorBoundary>
+    </div>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© 2026 Infiterra</span>
+      <span>Built with Vue</span>
+    </div>
+  </footer>
+
+  <ToastHost />
 </template>

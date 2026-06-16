@@ -1,56 +1,36 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
-import { show } from '@/api/categories'
-import type { Category } from '@/types'
+import { showBySlug, PER_PAGE } from '@/api/categories'
+import ProductCard from '@/components/ProductCard.vue'
+import AppPagination from '@/components/AppPagination.vue'
 
 const route = useRoute()
+const slug = route.params.slug as string
+const page = Number(route.query.page) || 1
 
-const category = ref<Category | null>(null)
-const loading = ref(false)
-const error = ref<string | null>(null)
+const category = await showBySlug(slug)
 
-async function loadCategory(id: string) {
-  loading.value = true
-  error.value = null
-  try {
-    const { data } = await show(id)
-    category.value = data
-  } catch (err) {
-    error.value = err instanceof Error ? err.message : 'Unknown error'
-  } finally {
-    loading.value = false
-  }
-}
-
-watch(() => route.params.id as string, (id) => loadCategory(id), { immediate: true })
+const allProducts = category.products ?? []
+const pages = Math.max(1, Math.ceil(allProducts.length / PER_PAGE))
+const products = allProducts.slice((page - 1) * PER_PAGE, page * PER_PAGE)
 </script>
 
 <template>
   <section>
-    <RouterLink to="/categories" class="text-sm text-gray-500 hover:text-gray-900">
-      ← Back to categories
-    </RouterLink>
+    <p><RouterLink to="/categories">← Back to categories</RouterLink></p>
 
-    <p v-if="loading" class="mt-4">Loading…</p>
-    <p v-else-if="error" class="mt-4 text-red-600">Error: {{ error }}</p>
+    <div class="list-head">
+      <h1>{{ category.name }}</h1>
+      <span class="muted">{{ allProducts.length }} products</span>
+    </div>
+    <p v-if="category.description">{{ category.description }}</p>
 
-    <article v-else-if="category" class="mt-4">
-      <h1 class="text-2xl">{{ category.name }}</h1>
-      <p v-if="category.description" class="mt-2 text-gray-600">
-        {{ category.description }}
-      </p>
+    <p v-if="!allProducts.length" class="muted">No products in this category yet.</p>
 
-      <ul v-if="category.products?.length" class="mt-6 space-y-1">
-        <li v-for="product in category.products" :key="product.id">
-          <RouterLink
-            :to="{ name: 'product', params: { id: product.id } }"
-            class="text-gray-700 hover:text-gray-900 hover:underline"
-          >
-            {{ product.name }}
-          </RouterLink>
-        </li>
-      </ul>
-    </article>
+    <div v-else class="grid">
+      <ProductCard v-for="product in products" :key="product.id" :product="product" />
+    </div>
+
+    <AppPagination :page="page" :pages="pages" />
   </section>
 </template>

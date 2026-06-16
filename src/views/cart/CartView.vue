@@ -9,15 +9,22 @@ const { items, total } = storeToRefs(cart)
 <template>
   <section>
     <h1>Cart</h1>
-    <p v-if="!items.length">Your cart is empty.</p>
+    <p v-if="!items.length" class="muted">Your cart is empty.</p>
     <template v-else>
-      <ul>
-        <li v-for="item in items" :key="item.id">
-          {{ item.name }} × {{ item.quantity }} — {{ item.price * item.quantity }}
-          <button type="button" @click="cart.removeItem(item.id)">Remove</button>
-        </li>
-      </ul>
-      <p><strong>Total: {{ total }}</strong></p>
+      <TransitionGroup name="cart">
+        <div v-for="item in items" :key="item.id" class="cart-row">
+          <img v-if="item.image" :src="item.image" :alt="item.name" />
+          <span style="flex: 1">{{ item.name }}</span>
+          <span class="qty">
+            <button type="button" class="btn-secondary" @click="cart.updateQuantity(item.id, item.quantity - 1)">−</button>
+            <span>{{ item.quantity }}</span>
+            <button type="button" class="btn-secondary" @click="cart.updateQuantity(item.id, item.quantity + 1)">+</button>
+          </span>
+          <span class="price">{{ (item.price * item.quantity).toFixed(2) }} €</span>
+          <button type="button" class="btn-secondary" @click="cart.removeItem(item.id)">Remove</button>
+        </div>
+      </TransitionGroup>
+      <p style="margin-top: 16px"><strong>Total: {{ total.toFixed(2) }} €</strong></p>
     </template>
   </section>
 </template>

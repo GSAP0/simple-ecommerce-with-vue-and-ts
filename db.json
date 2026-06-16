@@ -1,838 +1,1054 @@
 {
   "categories": [
     {
-      "id": 1,
-      "name": "Smartphones"
+      "id": "1",
+      "name": "Smartphones",
+      "image": "https://placehold.co/300x300?text=Smartphones",
+      "slug": "smartphones"
     },
     {
-      "id": 2,
-      "name": "Laptops"
+      "id": "2",
+      "name": "Laptops",
+      "image": "https://placehold.co/300x300?text=Laptops",
+      "slug": "laptops"
     },
     {
-      "id": 3,
-      "name": "Tablets"
+      "id": "3",
+      "name": "Tablets",
+      "image": "https://placehold.co/300x300?text=Tablets",
+      "slug": "tablets"
     },
     {
-      "id": 4,
-      "name": "Headphones"
+      "id": "4",
+      "name": "Headphones",
+      "image": "https://placehold.co/300x300?text=Headphones",
+      "slug": "headphones"
     },
     {
-      "id": 5,
-      "name": "Smartwatches"
+      "id": "5",
+      "name": "Smartwatches",
+      "image": "https://placehold.co/300x300?text=Smartwatches",
+      "slug": "smartwatches"
     },
     {
-      "id": 6,
-      "name": "Cameras"
+      "id": "6",
+      "name": "Cameras",
+      "image": "https://placehold.co/300x300?text=Cameras",
+      "slug": "cameras"
     },
     {
-      "id": 7,
-      "name": "Gaming"
+      "id": "7",
+      "name": "Gaming",
+      "image": "https://placehold.co/300x300?text=Gaming",
+      "slug": "gaming"
     },
     {
-      "id": 8,
-      "name": "Accessories"
+      "id": "8",
+      "name": "Accessories",
+      "image": "https://placehold.co/300x300?text=Accessories",
+      "slug": "accessories"
     }
   ],
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "iPhone 15 Pro",
       "price": 1199.99,
-      "categoryId": 1,
+      "categoryId": "1",
       "description": "Apple's flagship smartphone with A17 Pro chip and titanium design.",
-      "image": "https://placehold.co/300x300?text=iPhone+15+Pro"
+      "image": "https://placehold.co/300x300?text=iPhone+15+Pro",
+      "slug": "iphone-15-pro",
+      "categoryRef": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Samsung Galaxy S24 Ultra",
       "price": 1299.99,
-      "categoryId": 1,
+      "categoryId": "1",
       "description": "Samsung's top-tier phone with built-in S Pen and 200MP camera.",
-      "image": "https://placehold.co/300x300?text=Galaxy+S24+Ultra"
+      "image": "https://placehold.co/300x300?text=Galaxy+S24+Ultra",
+      "slug": "samsung-galaxy-s24-ultra",
+      "categoryRef": 1
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Google Pixel 8 Pro",
       "price": 999.99,
-      "categoryId": 1,
+      "categoryId": "1",
       "description": "Google's AI-powered flagship with best-in-class computational photography.",
-      "image": "https://placehold.co/300x300?text=Pixel+8+Pro"
+      "image": "https://placehold.co/300x300?text=Pixel+8+Pro",
+      "slug": "google-pixel-8-pro",
+      "categoryRef": 1
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "OnePlus 12",
       "price": 799.99,
-      "categoryId": 1,
+      "categoryId": "1",
       "description": "Flagship killer with Snapdragon 8 Gen 3 and 100W fast charging.",
-      "image": "https://placehold.co/300x300?text=OnePlus+12"
+      "image": "https://placehold.co/300x300?text=OnePlus+12",
+      "slug": "oneplus-12",
+      "categoryRef": 1
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Xiaomi 14 Pro",
       "price": 899.99,
-      "categoryId": 1,
+      "categoryId": "1",
       "description": "Leica-tuned cameras and ultra-fast 120W wired charging.",
-      "image": "https://placehold.co/300x300?text=Xiaomi+14+Pro"
+      "image": "https://placehold.co/300x300?text=Xiaomi+14+Pro",
+      "slug": "xiaomi-14-pro",
+      "categoryRef": 1
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Sony Xperia 1 VI",
       "price": 1099.99,
-      "categoryId": 1,
+      "categoryId": "1",
       "description": "4K OLED display and pro-grade camera controls for creators.",
-      "image": "https://placehold.co/300x300?text=Xperia+1+VI"
+      "image": "https://placehold.co/300x300?text=Xperia+1+VI",
+      "slug": "sony-xperia-1-vi",
+      "categoryRef": 1
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Motorola Edge 50 Pro",
       "price": 599.99,
-      "categoryId": 1,
+      "categoryId": "1",
       "description": "Slim design with 125W TurboPower charging and OLED display.",
-      "image": "https://placehold.co/300x300?text=Moto+Edge+50"
+      "image": "https://placehold.co/300x300?text=Moto+Edge+50",
+      "slug": "motorola-edge-50-pro",
+      "categoryRef": 1
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Nothing Phone (2a)",
       "price": 349.99,
-      "categoryId": 1,
+      "categoryId": "1",
       "description": "Unique Glyph interface and clean Android experience at mid-range price.",
-      "image": "https://placehold.co/300x300?text=Nothing+Phone+2a"
+      "image": "https://placehold.co/300x300?text=Nothing+Phone+2a",
+      "slug": "nothing-phone-2a",
+      "categoryRef": 1
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "iPhone 15",
       "price": 799.99,
-      "categoryId": 1,
+      "categoryId": "1",
       "description": "Dynamic Island, USB-C and 48MP main camera in a familiar design.",
-      "image": "https://placehold.co/300x300?text=iPhone+15"
+      "image": "https://placehold.co/300x300?text=iPhone+15",
+      "slug": "iphone-15",
+      "categoryRef": 1
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Samsung Galaxy A55",
       "price": 449.99,
-      "categoryId": 1,
+      "categoryId": "1",
       "description": "Solid mid-range with IP67, 50MP camera and 5 years of updates.",
-      "image": "https://placehold.co/300x300?text=Galaxy+A55"
+      "image": "https://placehold.co/300x300?text=Galaxy+A55",
+      "slug": "samsung-galaxy-a55",
+      "categoryRef": 1
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "MacBook Pro 14\" M3 Pro",
       "price": 1999.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "Apple Silicon M3 Pro chip with Liquid Retina XDR display.",
-      "image": "https://placehold.co/300x300?text=MacBook+Pro+14"
+      "image": "https://placehold.co/300x300?text=MacBook+Pro+14",
+      "slug": "macbook-pro-14-m3-pro",
+      "categoryRef": 2
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "MacBook Air 15\" M3",
       "price": 1299.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "Thin and light with all-day battery and M3 chip performance.",
-      "image": "https://placehold.co/300x300?text=MacBook+Air+15"
+      "image": "https://placehold.co/300x300?text=MacBook+Air+15",
+      "slug": "macbook-air-15-m3",
+      "categoryRef": 2
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Dell XPS 15",
       "price": 1799.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "Premium Windows laptop with OLED display and RTX 4060.",
-      "image": "https://placehold.co/300x300?text=Dell+XPS+15"
+      "image": "https://placehold.co/300x300?text=Dell+XPS+15",
+      "slug": "dell-xps-15",
+      "categoryRef": 2
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Lenovo ThinkPad X1 Carbon",
       "price": 1599.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "Business ultrabook with legendary keyboard and MIL-SPEC durability.",
-      "image": "https://placehold.co/300x300?text=ThinkPad+X1"
+      "image": "https://placehold.co/300x300?text=ThinkPad+X1",
+      "slug": "lenovo-thinkpad-x1-carbon",
+      "categoryRef": 2
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "ASUS ROG Zephyrus G14",
       "price": 1699.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "Compact gaming laptop with AMD Ryzen 9 and RX 7900S GPU.",
-      "image": "https://placehold.co/300x300?text=ROG+Zephyrus+G14"
+      "image": "https://placehold.co/300x300?text=ROG+Zephyrus+G14",
+      "slug": "asus-rog-zephyrus-g14",
+      "categoryRef": 2
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "HP Spectre x360 14",
       "price": 1449.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "2-in-1 convertible with OLED touchscreen and Intel Core Ultra.",
-      "image": "https://placehold.co/300x300?text=HP+Spectre+x360"
+      "image": "https://placehold.co/300x300?text=HP+Spectre+x360",
+      "slug": "hp-spectre-x360-14",
+      "categoryRef": 2
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Microsoft Surface Laptop 5",
       "price": 1299.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "Elegant design with PixelSense touchscreen and Intel Evo platform.",
-      "image": "https://placehold.co/300x300?text=Surface+Laptop+5"
+      "image": "https://placehold.co/300x300?text=Surface+Laptop+5",
+      "slug": "microsoft-surface-laptop-5",
+      "categoryRef": 2
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Razer Blade 16",
       "price": 2499.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "Dual-mode Mini LED display and RTX 4090 in a sleek chassis.",
-      "image": "https://placehold.co/300x300?text=Razer+Blade+16"
+      "image": "https://placehold.co/300x300?text=Razer+Blade+16",
+      "slug": "razer-blade-16",
+      "categoryRef": 2
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Acer Swift X 14",
       "price": 999.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "Creator laptop with RTX 4050 and OLED display under $1000.",
-      "image": "https://placehold.co/300x300?text=Acer+Swift+X+14"
+      "image": "https://placehold.co/300x300?text=Acer+Swift+X+14",
+      "slug": "acer-swift-x-14",
+      "categoryRef": 2
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "LG Gram 17",
       "price": 1349.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "Ultralight 17-inch laptop under 1.35kg with massive battery life.",
-      "image": "https://placehold.co/300x300?text=LG+Gram+17"
+      "image": "https://placehold.co/300x300?text=LG+Gram+17",
+      "slug": "lg-gram-17",
+      "categoryRef": 2
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "iPad Pro 13\" M4",
       "price": 1299.99,
-      "categoryId": 3,
+      "categoryId": "3",
       "description": "Ultra-thin OLED tablet with M4 chip and Apple Pencil Pro support.",
-      "image": "https://placehold.co/300x300?text=iPad+Pro+13+M4"
+      "image": "https://placehold.co/300x300?text=iPad+Pro+13+M4",
+      "slug": "ipad-pro-13-m4",
+      "categoryRef": 3
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "iPad Air 11\" M2",
       "price": 749.99,
-      "categoryId": 3,
+      "categoryId": "3",
       "description": "Powerful and versatile with M2 chip and Liquid Retina display.",
-      "image": "https://placehold.co/300x300?text=iPad+Air+11+M2"
+      "image": "https://placehold.co/300x300?text=iPad+Air+11+M2",
+      "slug": "ipad-air-11-m2",
+      "categoryRef": 3
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Samsung Galaxy Tab S9 Ultra",
       "price": 1199.99,
-      "categoryId": 3,
+      "categoryId": "3",
       "description": "14.6-inch Dynamic AMOLED 2X with S Pen and DeX mode.",
-      "image": "https://placehold.co/300x300?text=Tab+S9+Ultra"
+      "image": "https://placehold.co/300x300?text=Tab+S9+Ultra",
+      "slug": "samsung-galaxy-tab-s9-ultra",
+      "categoryRef": 3
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Samsung Galaxy Tab S9 FE",
       "price": 449.99,
-      "categoryId": 3,
+      "categoryId": "3",
       "description": "Fan Edition with large display and IP68 water resistance.",
-      "image": "https://placehold.co/300x300?text=Tab+S9+FE"
+      "image": "https://placehold.co/300x300?text=Tab+S9+FE",
+      "slug": "samsung-galaxy-tab-s9-fe",
+      "categoryRef": 3
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Microsoft Surface Pro 10",
       "price": 1099.99,
-      "categoryId": 3,
+      "categoryId": "3",
       "description": "2-in-1 tablet with Intel Core Ultra and detachable keyboard.",
-      "image": "https://placehold.co/300x300?text=Surface+Pro+10"
+      "image": "https://placehold.co/300x300?text=Surface+Pro+10",
+      "slug": "microsoft-surface-pro-10",
+      "categoryRef": 3
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Lenovo Tab P12 Pro",
       "price": 649.99,
-      "categoryId": 3,
+      "categoryId": "3",
       "description": "12.6-inch AMOLED display perfect for productivity and media.",
-      "image": "https://placehold.co/300x300?text=Lenovo+Tab+P12"
+      "image": "https://placehold.co/300x300?text=Lenovo+Tab+P12",
+      "slug": "lenovo-tab-p12-pro",
+      "categoryRef": 3
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Amazon Fire HD 10 Plus",
       "price": 179.99,
-      "categoryId": 3,
+      "categoryId": "3",
       "description": "10.1-inch tablet with wireless charging and Alexa built-in.",
-      "image": "https://placehold.co/300x300?text=Fire+HD+10+Plus"
+      "image": "https://placehold.co/300x300?text=Fire+HD+10+Plus",
+      "slug": "amazon-fire-hd-10-plus",
+      "categoryRef": 3
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "Xiaomi Pad 6 Pro",
       "price": 499.99,
-      "categoryId": 3,
+      "categoryId": "3",
       "description": "Snapdragon 8 Gen 2 and 144Hz display at an aggressive price.",
-      "image": "https://placehold.co/300x300?text=Xiaomi+Pad+6+Pro"
+      "image": "https://placehold.co/300x300?text=Xiaomi+Pad+6+Pro",
+      "slug": "xiaomi-pad-6-pro",
+      "categoryRef": 3
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "OnePlus Pad 2",
       "price": 549.99,
-      "categoryId": 3,
+      "categoryId": "3",
       "description": "Snapdragon 8 Gen 3 tablet with 67W SUPERVOOC charging.",
-      "image": "https://placehold.co/300x300?text=OnePlus+Pad+2"
+      "image": "https://placehold.co/300x300?text=OnePlus+Pad+2",
+      "slug": "oneplus-pad-2",
+      "categoryRef": 3
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "iPad mini 7",
       "price": 499.99,
-      "categoryId": 3,
+      "categoryId": "3",
       "description": "Compact powerhouse with A17 Pro chip in a pocket-friendly size.",
-      "image": "https://placehold.co/300x300?text=iPad+mini+7"
+      "image": "https://placehold.co/300x300?text=iPad+mini+7",
+      "slug": "ipad-mini-7",
+      "categoryRef": 3
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "Sony WH-1000XM5",
       "price": 349.99,
-      "categoryId": 4,
+      "categoryId": "4",
       "description": "Industry-leading noise cancellation with 30-hour battery life.",
-      "image": "https://placehold.co/300x300?text=WH-1000XM5"
+      "image": "https://placehold.co/300x300?text=WH-1000XM5",
+      "slug": "sony-wh-1000xm5",
+      "categoryRef": 4
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "Apple AirPods Pro 2nd Gen",
       "price": 249.99,
-      "categoryId": 4,
+      "categoryId": "4",
       "description": "Active noise cancellation with Adaptive Audio and USB-C case.",
-      "image": "https://placehold.co/300x300?text=AirPods+Pro+2"
+      "image": "https://placehold.co/300x300?text=AirPods+Pro+2",
+      "slug": "apple-airpods-pro-2nd-gen",
+      "categoryRef": 4
     },
     {
-      "id": 33,
+      "id": "33",
       "name": "Bose QuietComfort 45",
       "price": 279.99,
-      "categoryId": 4,
+      "categoryId": "4",
       "description": "Legendary Bose noise cancellation with premium comfort.",
-      "image": "https://placehold.co/300x300?text=QC45"
+      "image": "https://placehold.co/300x300?text=QC45",
+      "slug": "bose-quietcomfort-45",
+      "categoryRef": 4
     },
     {
-      "id": 34,
+      "id": "34",
       "name": "Samsung Galaxy Buds3 Pro",
       "price": 219.99,
-      "categoryId": 4,
+      "categoryId": "4",
       "description": "ANC earbuds with blade-style design and Hi-Fi audio.",
-      "image": "https://placehold.co/300x300?text=Buds3+Pro"
+      "image": "https://placehold.co/300x300?text=Buds3+Pro",
+      "slug": "samsung-galaxy-buds3-pro",
+      "categoryRef": 4
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "Jabra Evolve2 85",
       "price": 449.99,
-      "categoryId": 4,
+      "categoryId": "4",
       "description": "Professional headset with 8-mic call technology for hybrid work.",
-      "image": "https://placehold.co/300x300?text=Jabra+Evolve2+85"
+      "image": "https://placehold.co/300x300?text=Jabra+Evolve2+85",
+      "slug": "jabra-evolve2-85",
+      "categoryRef": 4
     },
     {
-      "id": 36,
+      "id": "36",
       "name": "Sennheiser Momentum 4",
       "price": 299.99,
-      "categoryId": 4,
+      "categoryId": "4",
       "description": "60-hour battery with audiophile-grade sound and adaptive ANC.",
-      "image": "https://placehold.co/300x300?text=Momentum+4"
+      "image": "https://placehold.co/300x300?text=Momentum+4",
+      "slug": "sennheiser-momentum-4",
+      "categoryRef": 4
     },
     {
-      "id": 37,
+      "id": "37",
       "name": "Beats Studio Pro",
       "price": 349.99,
-      "categoryId": 4,
+      "categoryId": "4",
       "description": "Personalized Spatial Audio with lossless audio via USB-C.",
-      "image": "https://placehold.co/300x300?text=Beats+Studio+Pro"
+      "image": "https://placehold.co/300x300?text=Beats+Studio+Pro",
+      "slug": "beats-studio-pro",
+      "categoryRef": 4
     },
     {
-      "id": 38,
+      "id": "38",
       "name": "Nothing Ear (2)",
       "price": 149.99,
-      "categoryId": 4,
+      "categoryId": "4",
       "description": "Transparent design with dual-driver audio and smart ANC.",
-      "image": "https://placehold.co/300x300?text=Nothing+Ear+2"
+      "image": "https://placehold.co/300x300?text=Nothing+Ear+2",
+      "slug": "nothing-ear-2",
+      "categoryRef": 4
     },
     {
-      "id": 39,
+      "id": "39",
       "name": "Google Pixel Buds Pro 2",
       "price": 229.99,
-      "categoryId": 4,
+      "categoryId": "4",
       "description": "Silent Seal 2.0 ANC with Google Tensor A1 chip onboard.",
-      "image": "https://placehold.co/300x300?text=Pixel+Buds+Pro+2"
+      "image": "https://placehold.co/300x300?text=Pixel+Buds+Pro+2",
+      "slug": "google-pixel-buds-pro-2",
+      "categoryRef": 4
     },
     {
-      "id": 40,
+      "id": "40",
       "name": "Apple AirPods Max USB-C",
       "price": 549.99,
-      "categoryId": 4,
+      "categoryId": "4",
       "description": "Over-ear headphones with Computational Audio and H2 chip.",
-      "image": "https://placehold.co/300x300?text=AirPods+Max"
+      "image": "https://placehold.co/300x300?text=AirPods+Max",
+      "slug": "apple-airpods-max-usb-c",
+      "categoryRef": 4
     },
     {
-      "id": 41,
+      "id": "41",
       "name": "Apple Watch Series 10",
       "price": 399.99,
-      "categoryId": 5,
+      "categoryId": "5",
       "description": "Thinnest Apple Watch ever with faster charging and new sensors.",
-      "image": "https://placehold.co/300x300?text=Apple+Watch+S10"
+      "image": "https://placehold.co/300x300?text=Apple+Watch+S10",
+      "slug": "apple-watch-series-10",
+      "categoryRef": 5
     },
     {
-      "id": 42,
+      "id": "42",
       "name": "Samsung Galaxy Watch 7",
       "price": 299.99,
-      "categoryId": 5,
+      "categoryId": "5",
       "description": "Advanced health tracking with BIA sensor and Exynos W1000.",
-      "image": "https://placehold.co/300x300?text=Galaxy+Watch+7"
+      "image": "https://placehold.co/300x300?text=Galaxy+Watch+7",
+      "slug": "samsung-galaxy-watch-7",
+      "categoryRef": 5
     },
     {
-      "id": 43,
+      "id": "43",
       "name": "Google Pixel Watch 3",
       "price": 349.99,
-      "categoryId": 5,
+      "categoryId": "5",
       "description": "Fitbit health features with Google integration and AMOLED display.",
-      "image": "https://placehold.co/300x300?text=Pixel+Watch+3"
+      "image": "https://placehold.co/300x300?text=Pixel+Watch+3",
+      "slug": "google-pixel-watch-3",
+      "categoryRef": 5
     },
     {
-      "id": 44,
+      "id": "44",
       "name": "Garmin Forerunner 965",
       "price": 599.99,
-      "categoryId": 5,
+      "categoryId": "5",
       "description": "Premium GPS running watch with AMOLED and full training metrics.",
-      "image": "https://placehold.co/300x300?text=Forerunner+965"
+      "image": "https://placehold.co/300x300?text=Forerunner+965",
+      "slug": "garmin-forerunner-965",
+      "categoryRef": 5
     },
     {
-      "id": 45,
+      "id": "45",
       "name": "Fitbit Charge 6",
       "price": 159.99,
-      "categoryId": 5,
+      "categoryId": "5",
       "description": "Fitness tracker with Google Maps, Wallet and ECG app.",
-      "image": "https://placehold.co/300x300?text=Fitbit+Charge+6"
+      "image": "https://placehold.co/300x300?text=Fitbit+Charge+6",
+      "slug": "fitbit-charge-6",
+      "categoryRef": 5
     },
     {
-      "id": 46,
+      "id": "46",
       "name": "Garmin Venu 3",
       "price": 449.99,
-      "categoryId": 5,
+      "categoryId": "5",
       "description": "AMOLED smartwatch with sleep coaching and wheelchair mode.",
-      "image": "https://placehold.co/300x300?text=Garmin+Venu+3"
+      "image": "https://placehold.co/300x300?text=Garmin+Venu+3",
+      "slug": "garmin-venu-3",
+      "categoryRef": 5
     },
     {
-      "id": 47,
+      "id": "47",
       "name": "Amazfit GTR 4",
       "price": 199.99,
-      "categoryId": 5,
+      "categoryId": "5",
       "description": "14-day battery with dual-band GPS and Zepp OS 2.0.",
-      "image": "https://placehold.co/300x300?text=Amazfit+GTR+4"
+      "image": "https://placehold.co/300x300?text=Amazfit+GTR+4",
+      "slug": "amazfit-gtr-4",
+      "categoryRef": 5
     },
     {
-      "id": 48,
+      "id": "48",
       "name": "Apple Watch Ultra 2",
       "price": 799.99,
-      "categoryId": 5,
+      "categoryId": "5",
       "description": "Rugged titanium design for extreme sports with 60-hour battery.",
-      "image": "https://placehold.co/300x300?text=Watch+Ultra+2"
+      "image": "https://placehold.co/300x300?text=Watch+Ultra+2",
+      "slug": "apple-watch-ultra-2",
+      "categoryRef": 5
     },
     {
-      "id": 49,
+      "id": "49",
       "name": "Withings ScanWatch 2",
       "price": 349.99,
-      "categoryId": 5,
+      "categoryId": "5",
       "description": "Hybrid smartwatch with ECG, SpO2 and 30-day battery.",
-      "image": "https://placehold.co/300x300?text=ScanWatch+2"
+      "image": "https://placehold.co/300x300?text=ScanWatch+2",
+      "slug": "withings-scanwatch-2",
+      "categoryRef": 5
     },
     {
-      "id": 50,
+      "id": "50",
       "name": "Samsung Galaxy Watch Ultra",
       "price": 649.99,
-      "categoryId": 5,
+      "categoryId": "5",
       "description": "Rugged titanium case with advanced health sensors for athletes.",
-      "image": "https://placehold.co/300x300?text=Galaxy+Watch+Ultra"
+      "image": "https://placehold.co/300x300?text=Galaxy+Watch+Ultra",
+      "slug": "samsung-galaxy-watch-ultra",
+      "categoryRef": 5
     },
     {
-      "id": 51,
+      "id": "51",
       "name": "Sony A7 IV",
       "price": 2499.99,
-      "categoryId": 6,
+      "categoryId": "6",
       "description": "33MP full-frame mirrorless with 4K 60fps and real-time tracking.",
-      "image": "https://placehold.co/300x300?text=Sony+A7+IV"
+      "image": "https://placehold.co/300x300?text=Sony+A7+IV",
+      "slug": "sony-a7-iv",
+      "categoryRef": 6
     },
     {
-      "id": 52,
+      "id": "52",
       "name": "Canon EOS R6 Mark II",
       "price": 2499.99,
-      "categoryId": 6,
+      "categoryId": "6",
       "description": "40fps burst shooting with 6K RAW video and in-body stabilization.",
-      "image": "https://placehold.co/300x300?text=Canon+R6+II"
+      "image": "https://placehold.co/300x300?text=Canon+R6+II",
+      "slug": "canon-eos-r6-mark-ii",
+      "categoryRef": 6
     },
     {
-      "id": 53,
+      "id": "53",
       "name": "Nikon Z6 III",
       "price": 2499.99,
-      "categoryId": 6,
+      "categoryId": "6",
       "description": "Partially-stacked sensor with 6K ProRes RAW and 120fps 4K.",
-      "image": "https://placehold.co/300x300?text=Nikon+Z6+III"
+      "image": "https://placehold.co/300x300?text=Nikon+Z6+III",
+      "slug": "nikon-z6-iii",
+      "categoryRef": 6
     },
     {
-      "id": 54,
+      "id": "54",
       "name": "Fujifilm X-T5",
       "price": 1699.99,
-      "categoryId": 6,
+      "categoryId": "6",
       "description": "40.2MP APS-C sensor in a compact retro body with film simulations.",
-      "image": "https://placehold.co/300x300?text=Fujifilm+X-T5"
+      "image": "https://placehold.co/300x300?text=Fujifilm+X-T5",
+      "slug": "fujifilm-x-t5",
+      "categoryRef": 6
     },
     {
-      "id": 55,
+      "id": "55",
       "name": "GoPro Hero 13 Black",
       "price": 399.99,
-      "categoryId": 6,
+      "categoryId": "6",
       "description": "5.3K60 action camera with HyperSmooth 6.0 and magnetic mounts.",
-      "image": "https://placehold.co/300x300?text=GoPro+Hero+13"
+      "image": "https://placehold.co/300x300?text=GoPro+Hero+13",
+      "slug": "gopro-hero-13-black",
+      "categoryRef": 6
     },
     {
-      "id": 56,
+      "id": "56",
       "name": "DJI Osmo Pocket 3",
       "price": 519.99,
-      "categoryId": 6,
+      "categoryId": "6",
       "description": "1-inch sensor gimbal camera with 4K 120fps and ActiveTrack.",
-      "image": "https://placehold.co/300x300?text=Osmo+Pocket+3"
+      "image": "https://placehold.co/300x300?text=Osmo+Pocket+3",
+      "slug": "dji-osmo-pocket-3",
+      "categoryRef": 6
     },
     {
-      "id": 57,
+      "id": "57",
       "name": "Ricoh GR IIIx",
       "price": 999.99,
-      "categoryId": 6,
+      "categoryId": "6",
       "description": "Compact street photography camera with 40mm equivalent lens.",
-      "image": "https://placehold.co/300x300?text=Ricoh+GR+IIIx"
+      "image": "https://placehold.co/300x300?text=Ricoh+GR+IIIx",
+      "slug": "ricoh-gr-iiix",
+      "categoryRef": 6
     },
     {
-      "id": 58,
+      "id": "58",
       "name": "OM System OM-5",
       "price": 999.99,
-      "categoryId": 6,
+      "categoryId": "6",
       "description": "Weather-sealed Micro Four Thirds with 5-axis 7.5-stop IBIS.",
-      "image": "https://placehold.co/300x300?text=OM+System+OM-5"
+      "image": "https://placehold.co/300x300?text=OM+System+OM-5",
+      "slug": "om-system-om-5",
+      "categoryRef": 6
     },
     {
-      "id": 59,
+      "id": "59",
       "name": "Insta360 X4",
       "price": 499.99,
-      "categoryId": 6,
+      "categoryId": "6",
       "description": "8K 360° camera with FlowState stabilization and 135-min battery.",
-      "image": "https://placehold.co/300x300?text=Insta360+X4"
+      "image": "https://placehold.co/300x300?text=Insta360+X4",
+      "slug": "insta360-x4",
+      "categoryRef": 6
     },
     {
-      "id": 60,
+      "id": "60",
       "name": "Sony ZV-E10 II",
       "price": 799.99,
-      "categoryId": 6,
+      "categoryId": "6",
       "description": "APS-C vlogging camera with 4K 60fps and AI autofocus.",
-      "image": "https://placehold.co/300x300?text=Sony+ZV-E10+II"
+      "image": "https://placehold.co/300x300?text=Sony+ZV-E10+II",
+      "slug": "sony-zv-e10-ii",
+      "categoryRef": 6
     },
     {
-      "id": 61,
+      "id": "61",
       "name": "PlayStation 5 Slim",
       "price": 449.99,
-      "categoryId": 7,
+      "categoryId": "7",
       "description": "Sony's latest console with SSD, DualSense and detachable disc drive.",
-      "image": "https://placehold.co/300x300?text=PS5+Slim"
+      "image": "https://placehold.co/300x300?text=PS5+Slim",
+      "slug": "playstation-5-slim",
+      "categoryRef": 7
     },
     {
-      "id": 62,
+      "id": "62",
       "name": "Xbox Series X",
       "price": 499.99,
-      "categoryId": 7,
+      "categoryId": "7",
       "description": "Microsoft's most powerful console with 4K gaming and Quick Resume.",
-      "image": "https://placehold.co/300x300?text=Xbox+Series+X"
+      "image": "https://placehold.co/300x300?text=Xbox+Series+X",
+      "slug": "xbox-series-x",
+      "categoryRef": 7
     },
     {
-      "id": 63,
+      "id": "63",
       "name": "Nintendo Switch OLED",
       "price": 349.99,
-      "categoryId": 7,
+      "categoryId": "7",
       "description": "7-inch OLED screen with enhanced audio and wide adjustable stand.",
-      "image": "https://placehold.co/300x300?text=Switch+OLED"
+      "image": "https://placehold.co/300x300?text=Switch+OLED",
+      "slug": "nintendo-switch-oled",
+      "categoryRef": 7
     },
     {
-      "id": 64,
+      "id": "64",
       "name": "Steam Deck OLED",
       "price": 549.99,
-      "categoryId": 7,
+      "categoryId": "7",
       "description": "HDR OLED handheld PC with 90Hz display and longer battery.",
-      "image": "https://placehold.co/300x300?text=Steam+Deck+OLED"
+      "image": "https://placehold.co/300x300?text=Steam+Deck+OLED",
+      "slug": "steam-deck-oled",
+      "categoryRef": 7
     },
     {
-      "id": 65,
+      "id": "65",
       "name": "ASUS ROG Ally X",
       "price": 799.99,
-      "categoryId": 7,
+      "categoryId": "7",
       "description": "Windows handheld gaming PC with Ryzen Z1 Extreme and 80Wh battery.",
-      "image": "https://placehold.co/300x300?text=ROG+Ally+X"
+      "image": "https://placehold.co/300x300?text=ROG+Ally+X",
+      "slug": "asus-rog-ally-x",
+      "categoryRef": 7
     },
     {
-      "id": 66,
+      "id": "66",
       "name": "Razer Kishi Ultra",
       "price": 149.99,
-      "categoryId": 7,
+      "categoryId": "7",
       "description": "Pro mobile game controller with haptics for iPhone and Android.",
-      "image": "https://placehold.co/300x300?text=Razer+Kishi+Ultra"
+      "image": "https://placehold.co/300x300?text=Razer+Kishi+Ultra",
+      "slug": "razer-kishi-ultra",
+      "categoryRef": 7
     },
     {
-      "id": 67,
+      "id": "67",
       "name": "Sony DualSense Edge",
       "price": 199.99,
-      "categoryId": 7,
+      "categoryId": "7",
       "description": "PS5 pro controller with remappable buttons and swappable sticks.",
-      "image": "https://placehold.co/300x300?text=DualSense+Edge"
+      "image": "https://placehold.co/300x300?text=DualSense+Edge",
+      "slug": "sony-dualsense-edge",
+      "categoryRef": 7
     },
     {
-      "id": 68,
+      "id": "68",
       "name": "Xbox Elite Series 2 Core",
       "price": 129.99,
-      "categoryId": 7,
+      "categoryId": "7",
       "description": "Premium Xbox controller with adjustable tension thumbsticks.",
-      "image": "https://placehold.co/300x300?text=Xbox+Elite+2"
+      "image": "https://placehold.co/300x300?text=Xbox+Elite+2",
+      "slug": "xbox-elite-series-2-core",
+      "categoryRef": 7
     },
     {
-      "id": 69,
+      "id": "69",
       "name": "SteelSeries Arctis Nova Pro",
       "price": 349.99,
-      "categoryId": 7,
+      "categoryId": "7",
       "description": "Multi-system gaming headset with ANC and hot-swap battery.",
-      "image": "https://placehold.co/300x300?text=Arctis+Nova+Pro"
+      "image": "https://placehold.co/300x300?text=Arctis+Nova+Pro",
+      "slug": "steelseries-arctis-nova-pro",
+      "categoryRef": 7
     },
     {
-      "id": 70,
+      "id": "70",
       "name": "Logitech G Pro X Superlight 2",
       "price": 159.99,
-      "categoryId": 7,
+      "categoryId": "7",
       "description": "Ultra-light wireless gaming mouse at 60g with HERO 2 sensor.",
-      "image": "https://placehold.co/300x300?text=G+Pro+Superlight+2"
+      "image": "https://placehold.co/300x300?text=G+Pro+Superlight+2",
+      "slug": "logitech-g-pro-x-superlight-2",
+      "categoryRef": 7
     },
     {
-      "id": 71,
+      "id": "71",
       "name": "Anker 733 GaNPrime",
       "price": 79.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "65W 2-in-1 compact GaN charger and power bank combo.",
-      "image": "https://placehold.co/300x300?text=Anker+733"
+      "image": "https://placehold.co/300x300?text=Anker+733",
+      "slug": "anker-733-ganprime",
+      "categoryRef": 8
     },
     {
-      "id": 72,
+      "id": "72",
       "name": "Apple MagSafe Charger 2m",
       "price": 39.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "Official 15W MagSafe charging cable for iPhone 12 and later.",
-      "image": "https://placehold.co/300x300?text=MagSafe+Charger"
+      "image": "https://placehold.co/300x300?text=MagSafe+Charger",
+      "slug": "apple-magsafe-charger-2m",
+      "categoryRef": 8
     },
     {
-      "id": 73,
+      "id": "73",
       "name": "Samsung 45W USB-C Adapter",
       "price": 49.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "Super Fast Charging 3.0 adapter compatible with Galaxy devices.",
-      "image": "https://placehold.co/300x300?text=Samsung+45W"
+      "image": "https://placehold.co/300x300?text=Samsung+45W",
+      "slug": "samsung-45w-usb-c-adapter",
+      "categoryRef": 8
     },
     {
-      "id": 74,
+      "id": "74",
       "name": "Belkin BoostCharge Pro 3-in-1",
       "price": 149.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "Charges iPhone, AirPods and Apple Watch simultaneously.",
-      "image": "https://placehold.co/300x300?text=Belkin+3in1"
+      "image": "https://placehold.co/300x300?text=Belkin+3in1",
+      "slug": "belkin-boostcharge-pro-3-in-1",
+      "categoryRef": 8
     },
     {
-      "id": 75,
+      "id": "75",
       "name": "Logitech MX Master 3S",
       "price": 99.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "Advanced wireless mouse with 8000 DPI and MagSpeed scroll wheel.",
-      "image": "https://placehold.co/300x300?text=MX+Master+3S"
+      "image": "https://placehold.co/300x300?text=MX+Master+3S",
+      "slug": "logitech-mx-master-3s",
+      "categoryRef": 8
     },
     {
-      "id": 76,
+      "id": "76",
       "name": "Keychron K2 Pro",
       "price": 99.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "75% wireless mechanical keyboard with QMK/VIA and hot-swap.",
-      "image": "https://placehold.co/300x300?text=Keychron+K2+Pro"
+      "image": "https://placehold.co/300x300?text=Keychron+K2+Pro",
+      "slug": "keychron-k2-pro",
+      "categoryRef": 8
     },
     {
-      "id": 77,
+      "id": "77",
       "name": "CalDigit TS4 Thunderbolt 4 Dock",
       "price": 349.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "18-port Thunderbolt 4 dock with 98W host charging.",
-      "image": "https://placehold.co/300x300?text=CalDigit+TS4"
+      "image": "https://placehold.co/300x300?text=CalDigit+TS4",
+      "slug": "caldigit-ts4-thunderbolt-4-dock",
+      "categoryRef": 8
     },
     {
-      "id": 78,
+      "id": "78",
       "name": "Elgato Stream Deck MK.2",
       "price": 149.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "15 LCD keys for streamers and content creators to automate workflows.",
-      "image": "https://placehold.co/300x300?text=Stream+Deck+MK2"
+      "image": "https://placehold.co/300x300?text=Stream+Deck+MK2",
+      "slug": "elgato-stream-deck-mk-2",
+      "categoryRef": 8
     },
     {
-      "id": 79,
+      "id": "79",
       "name": "Rode NT-USB Mini",
       "price": 99.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "Studio-quality USB condenser mic with magnetic desk stand.",
-      "image": "https://placehold.co/300x300?text=Rode+NT-USB+Mini"
+      "image": "https://placehold.co/300x300?text=Rode+NT-USB+Mini",
+      "slug": "rode-nt-usb-mini",
+      "categoryRef": 8
     },
     {
-      "id": 80,
+      "id": "80",
       "name": "Elgato Facecam Pro",
       "price": 299.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "4K60 Sony sensor webcam with RAW video output for streamers.",
-      "image": "https://placehold.co/300x300?text=Facecam+Pro"
+      "image": "https://placehold.co/300x300?text=Facecam+Pro",
+      "slug": "elgato-facecam-pro",
+      "categoryRef": 8
     },
     {
-      "id": 81,
+      "id": "81",
       "name": "Google Pixel 8a",
       "price": 499.99,
-      "categoryId": 1,
+      "categoryId": "1",
       "description": "Tensor G3 chip with 64MP camera and 7 years of OS updates.",
-      "image": "https://placehold.co/300x300?text=Pixel+8a"
+      "image": "https://placehold.co/300x300?text=Pixel+8a",
+      "slug": "google-pixel-8a",
+      "categoryRef": 1
     },
     {
-      "id": 82,
+      "id": "82",
       "name": "Samsung Galaxy Z Flip 6",
       "price": 1099.99,
-      "categoryId": 1,
+      "categoryId": "1",
       "description": "Foldable flip phone with Snapdragon 8 Gen 3 and FlexCam.",
-      "image": "https://placehold.co/300x300?text=Galaxy+Z+Flip+6"
+      "image": "https://placehold.co/300x300?text=Galaxy+Z+Flip+6",
+      "slug": "samsung-galaxy-z-flip-6",
+      "categoryRef": 1
     },
     {
-      "id": 83,
+      "id": "83",
       "name": "ASUS ZenBook 14 OLED",
       "price": 1099.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "14-inch OLED ultrabook with Intel Core Ultra 7 and 2.8K display.",
-      "image": "https://placehold.co/300x300?text=ZenBook+14+OLED"
+      "image": "https://placehold.co/300x300?text=ZenBook+14+OLED",
+      "slug": "asus-zenbook-14-oled",
+      "categoryRef": 2
     },
     {
-      "id": 84,
+      "id": "84",
       "name": "MSI Prestige 16 AI Evo",
       "price": 1299.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "AI-powered creator laptop with Lunar Grey chassis and 4K OLED.",
-      "image": "https://placehold.co/300x300?text=MSI+Prestige+16"
+      "image": "https://placehold.co/300x300?text=MSI+Prestige+16",
+      "slug": "msi-prestige-16-ai-evo",
+      "categoryRef": 2
     },
     {
-      "id": 85,
+      "id": "85",
       "name": "Lenovo Yoga 9i Gen 9",
       "price": 1499.99,
-      "categoryId": 2,
+      "categoryId": "2",
       "description": "2-in-1 convertible with OLED touchscreen and Intel Core Ultra.",
-      "image": "https://placehold.co/300x300?text=Yoga+9i+Gen+9"
+      "image": "https://placehold.co/300x300?text=Yoga+9i+Gen+9",
+      "slug": "lenovo-yoga-9i-gen-9",
+      "categoryRef": 2
     },
     {
-      "id": 86,
+      "id": "86",
       "name": "Amazon Fire Max 11",
       "price": 229.99,
-      "categoryId": 3,
+      "categoryId": "3",
       "description": "11-inch tablet with 2K display and Made for Work productivity features.",
-      "image": "https://placehold.co/300x300?text=Fire+Max+11"
+      "image": "https://placehold.co/300x300?text=Fire+Max+11",
+      "slug": "amazon-fire-max-11",
+      "categoryRef": 3
     },
     {
-      "id": 87,
+      "id": "87",
       "name": "Huawei MatePad Pro 13.2",
       "price": 799.99,
-      "categoryId": 3,
+      "categoryId": "3",
       "description": "OLED display with M-Pencil 3rd Gen and HarmonyOS 4.0.",
-      "image": "https://placehold.co/300x300?text=MatePad+Pro+13"
+      "image": "https://placehold.co/300x300?text=MatePad+Pro+13",
+      "slug": "huawei-matepad-pro-13-2",
+      "categoryRef": 3
     },
     {
-      "id": 88,
+      "id": "88",
       "name": "JBL Tour Pro 2",
       "price": 199.99,
-      "categoryId": 4,
+      "categoryId": "4",
       "description": "True wireless earbuds with smart charging case and display.",
-      "image": "https://placehold.co/300x300?text=JBL+Tour+Pro+2"
+      "image": "https://placehold.co/300x300?text=JBL+Tour+Pro+2",
+      "slug": "jbl-tour-pro-2",
+      "categoryRef": 4
     },
     {
-      "id": 89,
+      "id": "89",
       "name": "Technics EAH-AZ80",
       "price": 279.99,
-      "categoryId": 4,
+      "categoryId": "4",
       "description": "Flagship earbuds with 10mm driver and multipoint connection for 3 devices.",
-      "image": "https://placehold.co/300x300?text=Technics+AZ80"
+      "image": "https://placehold.co/300x300?text=Technics+AZ80",
+      "slug": "technics-eah-az80",
+      "categoryRef": 4
     },
     {
-      "id": 90,
+      "id": "90",
       "name": "Huawei Watch GT 4",
       "price": 199.99,
-      "categoryId": 5,
+      "categoryId": "5",
       "description": "14-day battery smartwatch with health monitoring and ECG.",
-      "image": "https://placehold.co/300x300?text=Huawei+Watch+GT4"
+      "image": "https://placehold.co/300x300?text=Huawei+Watch+GT4",
+      "slug": "huawei-watch-gt-4",
+      "categoryRef": 5
     },
     {
-      "id": 91,
+      "id": "91",
       "name": "Polar Vantage V3",
       "price": 599.99,
-      "categoryId": 5,
+      "categoryId": "5",
       "description": "Multisport watch with dual-frequency GPS and AMOLED display.",
-      "image": "https://placehold.co/300x300?text=Polar+Vantage+V3"
+      "image": "https://placehold.co/300x300?text=Polar+Vantage+V3",
+      "slug": "polar-vantage-v3",
+      "categoryRef": 5
     },
     {
-      "id": 92,
+      "id": "92",
       "name": "Panasonic Lumix S5 II",
       "price": 1999.99,
-      "categoryId": 6,
+      "categoryId": "6",
       "description": "Phase-hybrid AF with 6K video in a weather-sealed L-mount body.",
-      "image": "https://placehold.co/300x300?text=Lumix+S5+II"
+      "image": "https://placehold.co/300x300?text=Lumix+S5+II",
+      "slug": "panasonic-lumix-s5-ii",
+      "categoryRef": 6
     },
     {
-      "id": 93,
+      "id": "93",
       "name": "DJI Mini 4 Pro",
       "price": 759.99,
-      "categoryId": 6,
+      "categoryId": "6",
       "description": "Sub-250g drone with 4K 60fps HDR video and omnidirectional sensing.",
-      "image": "https://placehold.co/300x300?text=DJI+Mini+4+Pro"
+      "image": "https://placehold.co/300x300?text=DJI+Mini+4+Pro",
+      "slug": "dji-mini-4-pro",
+      "categoryRef": 6
     },
     {
-      "id": 94,
+      "id": "94",
       "name": "Lenovo Legion Go",
       "price": 699.99,
-      "categoryId": 7,
+      "categoryId": "7",
       "description": "Windows handheld with 8.8-inch QHD+ display and detachable controllers.",
-      "image": "https://placehold.co/300x300?text=Legion+Go"
+      "image": "https://placehold.co/300x300?text=Legion+Go",
+      "slug": "lenovo-legion-go",
+      "categoryRef": 7
     },
     {
-      "id": 95,
+      "id": "95",
       "name": "8BitDo Ultimate 2C",
       "price": 39.99,
-      "categoryId": 7,
+      "categoryId": "7",
       "description": "Wired controller with hall-effect sticks and 2.4GHz wireless.",
-      "image": "https://placehold.co/300x300?text=8BitDo+Ultimate+2C"
+      "image": "https://placehold.co/300x300?text=8BitDo+Ultimate+2C",
+      "slug": "8bitdo-ultimate-2c",
+      "categoryRef": 7
     },
     {
-      "id": 96,
+      "id": "96",
       "name": "Anker PowerCore 26800 PD",
       "price": 69.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "26800mAh power bank with 65W USB-C PD output.",
-      "image": "https://placehold.co/300x300?text=Anker+26800+PD"
+      "image": "https://placehold.co/300x300?text=Anker+26800+PD",
+      "slug": "anker-powercore-26800-pd",
+      "categoryRef": 8
     },
     {
-      "id": 97,
+      "id": "97",
       "name": "Logitech MX Keys S",
       "price": 109.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "Smart illuminated keyboard with flow cross-computer control.",
-      "image": "https://placehold.co/300x300?text=MX+Keys+S"
+      "image": "https://placehold.co/300x300?text=MX+Keys+S",
+      "slug": "logitech-mx-keys-s",
+      "categoryRef": 8
     },
     {
-      "id": 98,
+      "id": "98",
       "name": "Razer DeathAdder V3 Pro",
       "price": 149.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "63g ergonomic wireless gaming mouse with Focus Pro sensor.",
-      "image": "https://placehold.co/300x300?text=DeathAdder+V3+Pro"
+      "image": "https://placehold.co/300x300?text=DeathAdder+V3+Pro",
+      "slug": "razer-deathadder-v3-pro",
+      "categoryRef": 8
     },
     {
-      "id": 99,
+      "id": "99",
       "name": "Blue Yeti X",
       "price": 169.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "Professional USB condenser mic with LED metering and Blue VO!CE.",
-      "image": "https://placehold.co/300x300?text=Blue+Yeti+X"
+      "image": "https://placehold.co/300x300?text=Blue+Yeti+X",
+      "slug": "blue-yeti-x",
+      "categoryRef": 8
     },
     {
-      "id": 100,
+      "id": "100",
       "name": "Samsung T9 Portable SSD 2TB",
       "price": 179.99,
-      "categoryId": 8,
+      "categoryId": "8",
       "description": "2TB rugged SSD with USB 3.2 Gen 2x2 and IP65 rating.",
-      "image": "https://placehold.co/300x300?text=Samsung+T9+SSD"
+      "image": "https://placehold.co/300x300?text=Samsung+T9+SSD",
+      "slug": "samsung-t9-portable-ssd-2tb",
+      "categoryRef": 8
     }
   ]
 }
