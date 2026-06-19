@@ -1,4 +1,4 @@
-# Infiterra
+# In a few words...
 
 A small ecommerce front end built with Vue 3 and TypeScript. It lists products from a mock API, supports search, sorting, category filtering and pagination, and lets the user manage a shopping basket that survives a page reload.
 
